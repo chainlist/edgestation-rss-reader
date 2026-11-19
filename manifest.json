@@ -1,0 +1,18 @@
+{
+	"$schema": "./node_modules/@edgestation/sdk/manifest.schema.json",
+	"name": "RSS reader",
+	"version": "1.0.0",
+	"description": "The latest stories from the RSS and Atom feeds you add, in one list, newest first. Tap a story to open it in your browser. Add a feed on the widget with its address or the address of its site.",
+	"author": "ChainList",
+	"minAppVersion": "0.10.0",
+	"main": "dist/main.js",
+	"icon": "icon.svg",
+	"size": {
+		"w": 3,
+		"h": 1
+	},
+	"permissions": [
+		"fetch",
+		"links"
+	]
+}
